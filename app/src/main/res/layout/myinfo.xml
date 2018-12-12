@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="530dp"
+        android:layout_height="300dp"
+        android:background="@mipmap/bg"
+        >
+        <ImageView
+            android:id="@+id/Myinfo_exit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/jiantou"
+            android:layout_marginLeft="10dp"
+            />
+        <ImageView
+            android:id="@+id/touXiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="143dp"
+            android:layout_marginLeft="143dp"
+            android:src="@mipmap/nav_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="185dp"
+            android:layout_marginLeft="185dp"
+            android:layout_marginBottom="43dp"
+            android:text="Google"
+            android:textSize="20sp"
+            android:textColor="#0bc9ef"
+            />
+    </RelativeLayout>
+    <LinearLayout
+
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d4d1d1"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/ic_settings"
+            />
+        <TextView
+            android:id="@+id/setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/you"
+            android:layout_marginLeft="260dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>
